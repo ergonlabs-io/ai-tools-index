@@ -69,7 +69,7 @@ Agents that read, write and run code in your repository.
 | #076 | [Tabby](https://www.tabbyml.com) | Self-hosted, open-source alternative to GitHub Copilot. | Apache-2.0 + enterprise | [★ 33.9k](https://github.com/TabbyML/tabby) | 3mo ago |
 | #013 | [Kilo Code](https://kilocode.ai) | Open-source agent extension for VS Code and JetBrains. | MIT | [★ 27.6k](https://github.com/Kilo-Org/kilocode) | today |
 | #014 | [Roo Code](https://github.com/RooCodeInc/Roo-Code) | Multi-mode coding agent extension for VS Code, forked from Cline. | Apache-2.0 | [★ 24.3k](https://github.com/RooCodeInc/Roo-Code) | 4mo ago · 🗄️ archived |
-| #074 | [Junie](https://junie.jetbrains.com/) | JetBrains' coding agent for its IDEs, the terminal and CI. | Proprietary | [★ 475](https://github.com/JetBrains/junie) | 2d ago |
+| #074 | [Junie](https://junie.jetbrains.com/) | JetBrains' coding agent for its IDEs, the terminal and CI. | Proprietary | [★ 476](https://github.com/JetBrains/junie) | 2d ago |
 | #010 | [Cursor](https://cursor.com) | AI-first fork of VS Code with an agent mode and background agents. | Closed source | — | — |
 | #011 | [GitHub Copilot](https://github.com/features/copilot) | GitHub's assistant with agent mode in the editor and a cloud coding agent. | Closed source | — | — |
 | #017 | [Kiro](https://kiro.dev) | AWS's agentic IDE built around specs and hooks. | Closed source | — | — |

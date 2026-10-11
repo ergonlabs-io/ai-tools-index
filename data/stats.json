@@ -18,7 +18,7 @@
     "full_name": "BerriAI/litellm",
     "license": null,
     "pushed_at": "2026-10-11T16:44:37Z",
-    "stars": 60964
+    "stars": 60966
   },
   "ChromeDevTools/chrome-devtools-mcp": {
     "archived": false,
@@ -39,7 +39,7 @@
     "full_name": "JetBrains/junie",
     "license": null,
     "pushed_at": "2026-10-09T23:06:00Z",
-    "stars": 475
+    "stars": 476
   },
   "Kilo-Org/kilocode": {
     "archived": false,
@@ -53,7 +53,7 @@
     "full_name": "OpenHands/OpenHands",
     "license": "MIT",
     "pushed_at": "2026-10-11T05:42:02Z",
-    "stars": 90590
+    "stars": 90592
   },
   "Portkey-AI/gateway": {
     "archived": false,
@@ -73,7 +73,7 @@
     "archived": false,
     "full_name": "QwenLM/qwen-code",
     "license": "Apache-2.0",
-    "pushed_at": "2026-10-11T16:56:03Z",
+    "pushed_at": "2026-10-11T17:03:23Z",
     "stars": 28417
   },
   "RooCodeInc/Roo-Code": {
@@ -102,14 +102,14 @@
     "full_name": "aaif-goose/goose",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-09T23:52:36Z",
-    "stars": 55161
+    "stars": 55162
   },
   "anomalyco/opencode": {
     "archived": false,
     "full_name": "anomalyco/opencode",
     "license": "MIT",
     "pushed_at": "2026-10-11T16:35:18Z",
-    "stars": 212689
+    "stars": 212693
   },
   "anthropics/claude-agent-sdk-python": {
     "archived": false,
@@ -123,42 +123,42 @@
     "full_name": "anthropics/claude-code",
     "license": null,
     "pushed_at": "2026-10-10T22:23:41Z",
-    "stars": 150184
+    "stars": 150187
   },
   "awslabs/mcp": {
     "archived": false,
     "full_name": "awslabs/mcp",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-09T21:34:17Z",
-    "stars": 9766
+    "stars": 9767
   },
   "browser-use/browser-use": {
     "archived": false,
     "full_name": "browser-use/browser-use",
     "license": "MIT",
     "pushed_at": "2026-10-09T17:36:28Z",
-    "stars": 117639
+    "stars": 117641
   },
   "browserbase/stagehand": {
     "archived": false,
     "full_name": "browserbase/stagehand",
     "license": "MIT",
     "pushed_at": "2026-10-10T17:38:53Z",
-    "stars": 25621
+    "stars": 25622
   },
   "charmbracelet/crush": {
     "archived": false,
     "full_name": "charmbracelet/crush",
     "license": null,
-    "pushed_at": "2026-10-11T16:58:43Z",
-    "stars": 28594
+    "pushed_at": "2026-10-11T17:12:31Z",
+    "stars": 28595
   },
   "cline/cline": {
     "archived": false,
     "full_name": "cline/cline",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-11T05:40:43Z",
-    "stars": 70171
+    "stars": 70170
   },
   "cloudflare/mcp-server-cloudflare": {
     "archived": false,
@@ -186,7 +186,7 @@
     "full_name": "crewAIInc/crewAI",
     "license": "MIT",
     "pushed_at": "2026-10-10T23:37:22Z",
-    "stars": 59567
+    "stars": 59568
   },
   "docker/docker-agent": {
     "archived": false,
@@ -228,7 +228,7 @@
     "full_name": "firecrawl/firecrawl",
     "license": "AGPL-3.0",
     "pushed_at": "2026-10-10T23:09:56Z",
-    "stars": 190414
+    "stars": 190419
   },
   "firecrawl/firecrawl-mcp-server": {
     "archived": false,
@@ -249,7 +249,7 @@
     "full_name": "ggml-org/llama.cpp",
     "license": "MIT",
     "pushed_at": "2026-10-11T16:57:15Z",
-    "stars": 130829
+    "stars": 130831
   },
   "github/copilot-cli": {
     "archived": false,
@@ -263,7 +263,7 @@
     "full_name": "github/github-mcp-server",
     "license": "MIT",
     "pushed_at": "2026-10-08T16:25:41Z",
-    "stars": 33516
+    "stars": 33515
   },
   "google-gemini/gemini-cli": {
     "archived": false,
@@ -298,21 +298,21 @@
     "full_name": "janhq/jan",
     "license": null,
     "pushed_at": "2026-10-10T02:57:20Z",
-    "stars": 44886
+    "stars": 44887
   },
   "langchain-ai/langgraph": {
     "archived": false,
     "full_name": "langchain-ai/langgraph",
     "license": "MIT",
     "pushed_at": "2026-10-11T12:51:11Z",
-    "stars": 43067
+    "stars": 43069
   },
   "langfuse/langfuse": {
     "archived": false,
     "full_name": "langfuse/langfuse",
     "license": null,
     "pushed_at": "2026-10-11T02:54:34Z",
-    "stars": 35649
+    "stars": 35650
   },
   "letta-ai/letta": {
     "archived": false,
@@ -332,7 +332,7 @@
     "archived": false,
     "full_name": "mastra-ai/mastra",
     "license": null,
-    "pushed_at": "2026-10-11T16:25:14Z",
+    "pushed_at": "2026-10-11T17:17:03Z",
     "stars": 28709
   },
   "mem0ai/mem0": {
@@ -340,7 +340,7 @@
     "full_name": "mem0ai/mem0",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-09T06:17:43Z",
-    "stars": 66978
+    "stars": 66979
   },
   "microsoft/autogen": {
     "archived": false,
@@ -361,7 +361,7 @@
     "full_name": "microsoft/playwright-mcp",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-08T17:51:59Z",
-    "stars": 38022
+    "stars": 38023
   },
   "ml-explore/mlx-lm": {
     "archived": false,
@@ -424,7 +424,7 @@
     "full_name": "ollama/ollama",
     "license": "MIT",
     "pushed_at": "2026-10-11T06:52:52Z",
-    "stars": 182756
+    "stars": 182757
   },
   "onlook-dev/onlook": {
     "archived": false,
@@ -437,7 +437,7 @@
     "archived": false,
     "full_name": "open-webui/open-webui",
     "license": null,
-    "pushed_at": "2026-10-11T15:56:57Z",
+    "pushed_at": "2026-10-11T17:06:11Z",
     "stars": 154299
   },
   "openai/codex": {
@@ -445,7 +445,7 @@
     "full_name": "openai/codex",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-11T16:03:35Z",
-    "stars": 128655
+    "stars": 128658
   },
   "openai/openai-agents-python": {
     "archived": false,
@@ -459,13 +459,13 @@
     "full_name": "oraios/serena",
     "license": null,
     "pushed_at": "2026-10-09T13:08:19Z",
-    "stars": 30185
+    "stars": 30186
   },
   "promptfoo/promptfoo": {
     "archived": false,
     "full_name": "promptfoo/promptfoo",
     "license": "MIT",
-    "pushed_at": "2026-10-11T16:54:03Z",
+    "pushed_at": "2026-10-11T17:14:43Z",
     "stars": 25897
   },
   "punkpeye/awesome-mcp-servers": {
@@ -473,14 +473,14 @@
     "full_name": "punkpeye/awesome-mcp-servers",
     "license": "MIT",
     "pushed_at": "2026-10-09T19:23:13Z",
-    "stars": 96119
+    "stars": 96120
   },
   "pydantic/pydantic-ai": {
     "archived": false,
     "full_name": "pydantic/pydantic-ai",
     "license": "MIT",
     "pushed_at": "2026-10-11T05:08:41Z",
-    "stars": 20548
+    "stars": 20549
   },
   "run-llama/llama_index": {
     "archived": false,
@@ -494,7 +494,7 @@
     "full_name": "sgl-project/sglang",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-11T16:31:35Z",
-    "stars": 36990
+    "stars": 36991
   },
   "stackblitz-labs/bolt.diy": {
     "archived": false,
@@ -515,7 +515,7 @@
     "full_name": "stripe/ai",
     "license": "MIT",
     "pushed_at": "2026-10-11T00:59:26Z",
-    "stars": 1876
+    "stars": 1877
   },
   "supabase/mcp": {
     "archived": false,
@@ -529,14 +529,14 @@
     "full_name": "unclecode/crawl4ai",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-11T06:06:31Z",
-    "stars": 85224
+    "stars": 85227
   },
   "upstash/context7": {
     "archived": false,
     "full_name": "upstash/context7",
     "license": "MIT",
     "pushed_at": "2026-10-10T02:04:01Z",
-    "stars": 62903
+    "stars": 62904
   },
   "vercel/ai": {
     "archived": false,
@@ -564,20 +564,20 @@
     "full_name": "wonderwhy-er/DesktopCommanderMCP",
     "license": "MIT",
     "pushed_at": "2026-10-08T13:18:17Z",
-    "stars": 9999
+    "stars": 10000
   },
   "yetone/magpie": {
     "archived": false,
     "full_name": "yetone/magpie",
     "license": "MIT",
-    "pushed_at": "2026-10-11T16:57:32Z",
-    "stars": 9085
+    "pushed_at": "2026-10-11T17:19:13Z",
+    "stars": 9092
   },
   "zed-industries/zed": {
     "archived": false,
     "full_name": "zed-industries/zed",
     "license": null,
     "pushed_at": "2026-10-11T16:40:51Z",
-    "stars": 91581
+    "stars": 91583
   }
 }
