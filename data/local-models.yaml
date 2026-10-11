@@ -1,0 +1,53 @@
+title: Local models
+blurb: Run open-weight models on your own hardware.
+groups:
+  - title: Runners
+    tools:
+      - name: Ollama
+        dex: 50
+        url: https://ollama.com
+        repo: ollama/ollama
+        description: Runs open-weight models locally behind a simple CLI and an OpenAI-compatible API.
+      - name: llama.cpp
+        dex: 51
+        url: https://llama.app
+        repo: ggml-org/llama.cpp
+        description: Runs LLM inference in plain C/C++ on CPUs and GPUs; the engine behind many local tools.
+      - name: vLLM
+        dex: 52
+        url: https://vllm.ai
+        repo: vllm-project/vllm
+        description: Serves LLMs with high throughput using PagedAttention and continuous batching.
+      - name: SGLang
+        dex: 53
+        url: https://www.sglang.io/
+        repo: sgl-project/sglang
+        description: Serves LLMs and multimodal models with a fast runtime and a structured-generation frontend.
+      - name: MLX LM
+        dex: 54
+        url: https://github.com/ml-explore/mlx-lm
+        repo: ml-explore/mlx-lm
+        description: Runs and fine-tunes LLMs on Apple silicon with Apple's MLX framework.
+      - name: LocalAI
+        dex: 55
+        url: https://localai.io
+        repo: mudler/LocalAI
+        description: Serves LLM, vision, voice and image models on local hardware through an OpenAI-compatible API.
+  - title: Desktop and chat UIs
+    tools:
+      - name: LM Studio
+        dex: 56
+        url: https://lmstudio.ai
+        description: Desktop app for finding, downloading and chatting with local models, with a local API server.
+      - name: Jan
+        dex: 57
+        url: https://www.jan.ai/
+        repo: janhq/jan
+        license: Apache-2.0
+        description: Runs an offline, open-source ChatGPT-style assistant on local models or cloud APIs.
+      - name: Open WebUI
+        dex: 58
+        url: https://openwebui.com
+        repo: open-webui/open-webui
+        license: Custom (Open WebUI License)
+        description: Self-hosted chat interface for Ollama and OpenAI-compatible APIs.

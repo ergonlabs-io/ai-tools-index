@@ -1,0 +1,64 @@
+title: App builders
+blurb: Describe an app in plain language and get a running one back.
+groups:
+  - title: Hosted
+    tools:
+      - name: Lovable
+        dex: 22
+        url: https://lovable.dev
+        description: Builds full-stack web apps from chat, with Supabase and GitHub sync.
+      - name: Bolt.new
+        dex: 23
+        url: https://bolt.new
+        description: StackBlitz's in-browser app builder running on WebContainers.
+      - name: v0
+        dex: 24
+        url: https://v0.app
+        description: Vercel's generator for React and Next.js apps and UI.
+      - name: Replit Agent
+        dex: 25
+        url: https://replit.com
+        description: Agent that builds and deploys apps inside Replit's cloud workspace.
+      - name: Base44
+        dex: 26
+        url: https://base44.com
+        description: All-in-one builder with hosting, database and auth included.
+      - name: Firebase Studio
+        dex: 27
+        url: https://firebase.studio
+        description: Google's cloud workspace for prototyping and shipping full-stack apps.
+      - name: Anything
+        dex: 79
+        url: https://www.anything.com
+        description: Builds websites, apps and tools from a text description.
+      - name: Rork
+        dex: 80
+        url: https://rork.com
+        description: Builds cross-platform mobile apps from a prompt.
+      - name: Leap
+        dex: 81
+        url: https://leap.new
+        description: Generates apps and deploys them to AWS or GCP.
+  - title: Open source and local
+    tools:
+      - name: Dyad
+        dex: 28
+        url: https://www.dyad.sh
+        repo: dyad-sh/dyad
+        license: Apache-2.0 + pro
+        description: Local, open-source alternative to hosted app builders.
+      - name: bolt.diy
+        dex: 29
+        url: https://github.com/stackblitz-labs/bolt.diy
+        repo: stackblitz-labs/bolt.diy
+        description: Community fork of Bolt.new that runs with any LLM provider.
+      - name: Chef
+        dex: 82
+        url: https://github.com/get-convex/chef
+        repo: get-convex/chef
+        description: Convex's open-source app builder that generates the backend along with the UI.
+      - name: Onlook
+        dex: 83
+        url: https://www.onlook.com/
+        repo: onlook-dev/onlook
+        description: Visual editor for React apps that writes design changes back to the code.

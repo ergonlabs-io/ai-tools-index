@@ -1,0 +1,139 @@
+title: MCP servers
+blurb: Model Context Protocol servers that give agents tools and data.
+groups:
+  - title: Developer tools
+    tools:
+      - name: GitHub MCP Server
+        dex: 30
+        url: https://github.com/github/github-mcp-server
+        repo: github/github-mcp-server
+        description: GitHub's official server for repos, issues, PRs and Actions.
+      - name: Playwright MCP
+        dex: 31
+        url: https://github.com/microsoft/playwright-mcp
+        repo: microsoft/playwright-mcp
+        description: Browser automation through Playwright's accessibility snapshots.
+      - name: Chrome DevTools MCP
+        dex: 32
+        url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+        repo: ChromeDevTools/chrome-devtools-mcp
+        description: Lets agents drive and debug a live Chrome via DevTools.
+      - name: Context7
+        dex: 33
+        url: https://context7.com
+        repo: upstash/context7
+        description: Up-to-date, version-specific library docs fed into the prompt.
+      - name: Firecrawl MCP
+        dex: 85
+        url: https://github.com/firecrawl/firecrawl-mcp-server
+        repo: firecrawl/firecrawl-mcp-server
+        description: Adds Firecrawl web scraping, crawling and search to MCP clients.
+      - name: Exa MCP
+        dex: 86
+        url: https://exa.ai/docs/get-started/exa-mcp
+        repo: exa-labs/exa-mcp-server
+        description: Connects MCP clients to Exa's web search and page fetching.
+      - name: Serena
+        dex: 87
+        url: https://oraios.github.io/serena/
+        repo: oraios/serena
+        license: GPL-3.0 / MIT
+        description: Gives coding agents semantic code search and editing through language servers.
+      - name: Desktop Commander
+        dex: 88
+        url: https://desktopcommander.app/
+        repo: wonderwhy-er/DesktopCommanderMCP
+        description: Gives MCP clients terminal control, file search and diff-based file editing.
+  - title: Platforms and services
+    tools:
+      - name: Supabase MCP
+        dex: 34
+        url: https://github.com/supabase/mcp
+        repo: supabase/mcp
+        description: Manage Supabase projects, databases and edge functions.
+      - name: Notion MCP Server
+        dex: 35
+        url: https://github.com/makenotion/notion-mcp-server
+        repo: makenotion/notion-mcp-server
+        description: Notion's official server for pages and databases.
+      - name: Stripe
+        dex: 36
+        url: https://github.com/stripe/ai
+        repo: stripe/ai
+        description: Stripe's agent toolkit and MCP server for payments APIs.
+      - name: AWS MCP Servers
+        dex: 37
+        url: https://github.com/awslabs/mcp
+        repo: awslabs/mcp
+        description: AWS Labs' collection of servers for AWS services.
+      - name: Cloudflare MCP
+        dex: 84
+        url: https://github.com/cloudflare/mcp-server-cloudflare
+        repo: cloudflare/mcp-server-cloudflare
+        description: Cloudflare's MCP servers for Workers, DNS, observability and other Cloudflare APIs.
+      - name: Grafana MCP
+        dex: 89
+        url: https://github.com/grafana/mcp-grafana
+        repo: grafana/mcp-grafana
+        description: Grafana's MCP server for querying dashboards, data sources and alerts.
+      - name: MongoDB MCP Server
+        dex: 90
+        url: https://github.com/mongodb-js/mongodb-mcp-server
+        repo: mongodb-js/mongodb-mcp-server
+        description: Connects agents to MongoDB databases and Atlas clusters.
+      - name: Microsoft MCP
+        dex: 91
+        url: https://github.com/microsoft/mcp
+        repo: microsoft/mcp
+        description: Catalog of Microsoft's official MCP servers, including Azure.
+  - title: Reference and tooling
+    tools:
+      - name: Reference servers
+        dex: 38
+        url: https://github.com/modelcontextprotocol/servers
+        repo: modelcontextprotocol/servers
+        license: Apache-2.0 / MIT
+        description: Official reference implementations (filesystem, fetch, git, memory...).
+      - name: MCP Inspector
+        dex: 39
+        url: https://github.com/modelcontextprotocol/inspector
+        repo: modelcontextprotocol/inspector
+        license: Apache-2.0 / MIT
+        description: Visual tool for testing and debugging MCP servers.
+      - name: FastMCP
+        dex: 92
+        url: https://gofastmcp.com/getting-started/welcome
+        repo: PrefectHQ/fastmcp
+        description: Builds MCP servers and clients in Python with a decorator-based API.
+      - name: MCP TypeScript SDK
+        dex: 93
+        url: https://github.com/modelcontextprotocol/typescript-sdk
+        repo: modelcontextprotocol/typescript-sdk
+        license: Apache-2.0 / MIT
+        description: Official TypeScript SDK for building MCP servers and clients.
+      - name: MCP Python SDK
+        dex: 94
+        url: https://github.com/modelcontextprotocol/python-sdk
+        repo: modelcontextprotocol/python-sdk
+        description: Official Python SDK for building MCP servers and clients.
+      - name: MCP Registry
+        dex: 95
+        url: https://github.com/modelcontextprotocol/registry
+        repo: modelcontextprotocol/registry
+        license: Apache-2.0 / MIT
+        description: Official community-driven registry service for MCP servers.
+  - title: Directories
+    tools:
+      - name: Smithery
+        dex: 40
+        url: https://smithery.ai
+        description: Registry for discovering and hosting MCP servers.
+      - name: Glama
+        dex: 41
+        url: https://glama.ai/mcp/servers
+        description: Searchable directory of MCP servers.
+      - name: awesome-mcp-servers
+        dex: 42
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repo: punkpeye/awesome-mcp-servers
+        description: The largest community list of MCP servers.

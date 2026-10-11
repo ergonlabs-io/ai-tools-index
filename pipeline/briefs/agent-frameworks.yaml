@@ -1,0 +1,15 @@
+section: agent-frameworks
+instructions: Open-source libraries and SDKs for building agents. Use the main framework repo, not docs or examples.
+candidates:
+  - {name: LangGraph, group: Python}
+  - {name: CrewAI, group: Python, url: https://www.crewai.com}
+  - {name: openai-agents-python, group: Python}
+  - {name: claude-agent-sdk-python, group: Python}
+  - {name: pydantic-ai, group: Python, url: https://ai.pydantic.dev}
+  - {name: autogen, group: Python}
+  - {name: adk-python, group: Python}
+  - {name: smolagents, group: Python}
+  - {name: llama_index, group: Python, url: https://www.llamaindex.ai}
+  - {name: dspy, group: Python, url: https://dspy.ai}
+  - {name: Vercel AI SDK, group: TypeScript, url: https://github.com/vercel/ai}
+  - {name: Mastra, group: TypeScript, url: https://mastra.ai}

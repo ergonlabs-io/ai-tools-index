@@ -1,0 +1,69 @@
+title: Agent frameworks
+blurb: Libraries and SDKs for building your own agents.
+groups:
+  - title: Python
+    tools:
+      - name: LangGraph
+        dex: 59
+        url: https://docs.langchain.com/oss/python/langgraph/overview
+        repo: langchain-ai/langgraph
+        description: Builds stateful, long-running agents as graphs, from the LangChain team.
+      - name: CrewAI
+        dex: 60
+        url: https://crewai.com/
+        repo: crewAIInc/crewAI
+        description: Orchestrates teams of role-playing autonomous agents in Python.
+      - name: OpenAI Agents SDK
+        dex: 61
+        url: https://openai.github.io/openai-agents-python/
+        repo: openai/openai-agents-python
+        description: OpenAI's lightweight Python framework for multi-agent workflows with handoffs and guardrails.
+      - name: Claude Agent SDK
+        dex: 62
+        url: https://github.com/anthropics/claude-agent-sdk-python
+        repo: anthropics/claude-agent-sdk-python
+        description: Builds agents in Python on the same agent harness that powers Claude Code.
+      - name: Pydantic AI
+        dex: 63
+        url: https://pydantic.dev/pydantic-ai
+        repo: pydantic/pydantic-ai
+        description: Builds type-safe agents in Python, from the team behind Pydantic.
+      - name: AutoGen
+        dex: 64
+        url: https://microsoft.github.io/autogen/
+        repo: microsoft/autogen
+        description: Microsoft's framework for building multi-agent conversational AI applications.
+      - name: Google ADK
+        dex: 65
+        url: https://adk.dev/
+        repo: google/adk-python
+        description: Google's toolkit for building, evaluating and deploying agents in Python.
+      - name: smolagents
+        dex: 66
+        url: https://huggingface.co/docs/smolagents/index
+        repo: huggingface/smolagents
+        description: Hugging Face's minimal library for agents that act by writing code.
+      - name: LlamaIndex
+        dex: 67
+        url: https://www.llamaindex.ai
+        repo: run-llama/llama_index
+        description: Builds agents and RAG pipelines over private documents and data.
+      - name: DSPy
+        dex: 68
+        url: https://dspy.ai
+        repo: stanfordnlp/dspy
+        description: Programs language models with composable modules and optimizers instead of hand-written prompts.
+  - title: TypeScript
+    tools:
+      - name: Vercel AI SDK
+        dex: 69
+        url: https://github.com/vercel/ai
+        repo: vercel/ai
+        license: Apache-2.0
+        description: TypeScript toolkit for building AI apps and agents across model providers.
+      - name: Mastra
+        dex: 70
+        url: https://mastra.ai
+        repo: mastra-ai/mastra
+        license: Apache-2.0 + enterprise
+        description: TypeScript framework for agents, workflows, RAG and evals.

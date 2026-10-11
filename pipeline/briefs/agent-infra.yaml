@@ -1,0 +1,15 @@
+section: agent-infra
+instructions: Infrastructure for running agents, not already listed. Groups "Gateways and proxies", "Observability", "Sandboxes and browsers" exist; "Evals", "Memory", "Web data" are new.
+candidates:
+  - {name: OpenRouter, group: Gateways and proxies, url: https://openrouter.ai}
+  - {name: phoenix, group: Observability, url: https://phoenix.arize.com}
+  - {name: opik, group: Observability}
+  - {name: daytona, group: Sandboxes and browsers, url: https://www.daytona.io}
+  - {name: Modal, group: Sandboxes and browsers, url: https://modal.com}
+  - {name: stagehand, group: Sandboxes and browsers}
+  - {name: Browserbase, group: Sandboxes and browsers, url: https://www.browserbase.com}
+  - {name: firecrawl, group: Web data, url: https://www.firecrawl.dev}
+  - {name: crawl4ai, group: Web data}
+  - {name: promptfoo, group: Evals, url: https://www.promptfoo.dev}
+  - {name: mem0, group: Memory, url: https://mem0.ai}
+  - {name: letta, group: Memory, url: https://www.letta.com}

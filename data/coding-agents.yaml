@@ -1,0 +1,152 @@
+title: Coding agents
+blurb: Agents that read, write and run code in your repository.
+groups:
+  - title: Terminal agents
+    tools:
+      - name: Claude Code
+        dex: 1
+        url: https://www.anthropic.com/claude-code
+        repo: anthropics/claude-code
+        license: Proprietary
+        description: Anthropic's agentic coding CLI; also runs in IDEs and the desktop app.
+      - name: Codex CLI
+        dex: 2
+        url: https://developers.openai.com/codex
+        repo: openai/codex
+        description: OpenAI's open-source coding agent for the terminal.
+      - name: Gemini CLI
+        dex: 3
+        url: https://github.com/google-gemini/gemini-cli
+        repo: google-gemini/gemini-cli
+        description: Google's open-source agent that brings Gemini models to the terminal.
+      - name: opencode
+        dex: 4
+        url: https://opencode.ai
+        repo: anomalyco/opencode
+        description: Open-source terminal coding agent that works with many model providers.
+      - name: Aider
+        dex: 5
+        url: https://aider.chat
+        repo: Aider-AI/aider
+        description: Pair programming in the terminal with git-native edits and commits.
+      - name: Crush
+        dex: 6
+        url: https://github.com/charmbracelet/crush
+        repo: charmbracelet/crush
+        license: FSL-1.1-MIT
+        description: Charm's terminal coding agent with multi-model and LSP support.
+      - name: Qwen Code
+        dex: 7
+        url: https://github.com/QwenLM/qwen-code
+        repo: QwenLM/qwen-code
+        description: Terminal agent tuned for Qwen coder models, forked from Gemini CLI.
+      - name: Goose
+        dex: 8
+        url: https://github.com/aaif-goose/goose
+        repo: aaif-goose/goose
+        description: Extensible open-source agent with a CLI and desktop app, built on MCP.
+      - name: Amp
+        dex: 9
+        url: https://ampcode.com
+        description: Sourcegraph's coding agent for the terminal and editors.
+      - name: GitHub Copilot CLI
+        dex: 71
+        url: https://github.com/github/copilot-cli
+        repo: github/copilot-cli
+        license: Proprietary
+        description: GitHub's Copilot coding agent in the terminal.
+      - name: Factory
+        dex: 72
+        url: https://factory.com/
+        description: Runs coding agents called Droids from the terminal, IDE and CI.
+      - name: Warp
+        dex: 73
+        url: https://www.warp.dev
+        repo: warpdotdev/warp
+        description: Terminal-based development environment with built-in coding agents.
+  - title: Editor agents
+    tools:
+      - name: Cursor
+        dex: 10
+        url: https://cursor.com
+        description: AI-first fork of VS Code with an agent mode and background agents.
+      - name: GitHub Copilot
+        dex: 11
+        url: https://github.com/features/copilot
+        description: GitHub's assistant with agent mode in the editor and a cloud coding agent.
+      - name: Cline
+        dex: 12
+        url: https://cline.bot
+        repo: cline/cline
+        description: Open-source autonomous coding agent as a VS Code extension.
+      - name: Kilo Code
+        dex: 13
+        url: https://kilocode.ai
+        repo: Kilo-Org/kilocode
+        description: Open-source agent extension for VS Code and JetBrains.
+      - name: Roo Code
+        dex: 14
+        url: https://github.com/RooCodeInc/Roo-Code
+        repo: RooCodeInc/Roo-Code
+        description: Multi-mode coding agent extension for VS Code, forked from Cline.
+      - name: Continue
+        dex: 15
+        url: https://continue.dev
+        repo: continuedev/continue
+        description: Open-source agents and checks for IDEs and CI.
+      - name: Zed
+        dex: 16
+        url: https://zed.dev
+        repo: zed-industries/zed
+        license: GPL-3.0 / Apache-2.0
+        description: High-performance editor written in Rust with a built-in agent panel.
+      - name: Kiro
+        dex: 17
+        url: https://kiro.dev
+        description: AWS's agentic IDE built around specs and hooks.
+      - name: Junie
+        dex: 74
+        url: https://junie.jetbrains.com/
+        repo: JetBrains/junie
+        license: Proprietary
+        description: JetBrains' coding agent for its IDEs, the terminal and CI.
+      - name: Trae
+        dex: 75
+        url: https://www.trae.ai
+        description: ByteDance's AI IDE with a built-in coding agent.
+      - name: Tabby
+        dex: 76
+        url: https://www.tabbyml.com
+        repo: TabbyML/tabby
+        license: Apache-2.0 + enterprise
+        description: Self-hosted, open-source alternative to GitHub Copilot.
+  - title: Cloud and autonomous agents
+    tools:
+      - name: OpenHands
+        dex: 18
+        url: https://github.com/OpenHands/OpenHands
+        repo: OpenHands/OpenHands
+        description: Open platform for autonomous software-engineering agents.
+      - name: SWE-agent
+        dex: 19
+        url: https://swe-agent.com
+        repo: SWE-agent/SWE-agent
+        description: Princeton/Stanford research agent that resolves GitHub issues.
+      - name: Devin
+        dex: 20
+        url: https://devin.ai
+        description: Cognition's autonomous software engineer.
+      - name: Jules
+        dex: 21
+        url: https://jules.google
+        description: Google's asynchronous coding agent that works on your GitHub repos.
+      - name: Tempo
+        dex: 78
+        url: https://www.tempo.new
+        description: Turns customer feedback, issues and product requirements into reviewed pull requests.
+  - title: Code review
+    tools:
+      - name: CodeRabbit
+        dex: 77
+        url: https://www.coderabbit.ai
+        description: Reviews pull requests with AI and leaves line-by-line comments.

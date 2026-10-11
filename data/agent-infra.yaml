@@ -1,0 +1,102 @@
+title: Agent infrastructure
+blurb: Gateways, observability and sandboxes for running agents in production.
+groups:
+  - title: Gateways and proxies
+    tools:
+      - name: LiteLLM
+        dex: 43
+        url: https://github.com/BerriAI/litellm
+        repo: BerriAI/litellm
+        license: MIT + enterprise
+        description: Python SDK and proxy that calls 100+ LLM APIs in OpenAI format.
+      - name: Portkey Gateway
+        dex: 44
+        url: https://github.com/Portkey-AI/gateway
+        repo: Portkey-AI/gateway
+        description: Fast AI gateway with routing, retries and guardrails.
+      - name: omni
+        dex: 45
+        url: https://github.com/ergonlabs-io/omni
+        repo: ergonlabs-io/omni
+        description: One interception point for all coding agents.
+        maintainer_note: true
+      - name: OpenRouter
+        dex: 96
+        url: https://openrouter.ai
+        description: Routes requests to hundreds of models from many providers through one OpenAI-compatible API.
+  - title: Observability
+    tools:
+      - name: Langfuse
+        dex: 46
+        url: https://langfuse.com
+        repo: langfuse/langfuse
+        license: MIT + enterprise
+        description: Open-source LLM tracing, evals and prompt management.
+      - name: Helicone
+        dex: 47
+        url: https://helicone.ai
+        repo: Helicone/helicone
+        description: Open-source LLM observability and gateway.
+      - name: Arize Phoenix
+        dex: 97
+        url: https://arize.com/phoenix/
+        repo: Arize-ai/phoenix
+        license: Elastic-2.0
+        description: Traces, evaluates and debugs LLM apps and agents, built on OpenTelemetry.
+      - name: Opik
+        dex: 98
+        url: https://www.comet.com/docs/opik/
+        repo: comet-ml/opik
+        description: Comet's open-source tracing, evaluation and monitoring for LLM apps.
+  - title: Sandboxes and browsers
+    tools:
+      - name: E2B
+        dex: 48
+        url: https://e2b.dev
+        repo: e2b-dev/E2B
+        description: Secure cloud sandboxes for running agent-generated code.
+      - name: Browser Use
+        dex: 49
+        url: https://browser-use.com
+        repo: browser-use/browser-use
+        description: Makes websites accessible to AI agents.
+      - name: Stagehand
+        dex: 99
+        url: https://www.stagehand.dev/
+        repo: browserbase/stagehand
+        description: Browser automation SDK that mixes code with natural-language actions.
+      - name: Browserbase
+        dex: 100
+        url: https://www.browserbase.com
+        description: Runs headless browsers in the cloud for agents and automation.
+  - title: Web data
+    tools:
+      - name: Firecrawl
+        dex: 101
+        url: https://www.firecrawl.dev
+        repo: firecrawl/firecrawl
+        description: Turns websites into clean Markdown or structured data for LLMs through an API.
+      - name: Crawl4AI
+        dex: 102
+        url: https://crawl4ai.com
+        repo: unclecode/crawl4ai
+        description: Open-source crawler that turns web pages into clean Markdown or JSON for LLMs.
+  - title: Evals
+    tools:
+      - name: promptfoo
+        dex: 103
+        url: https://www.promptfoo.dev
+        repo: promptfoo/promptfoo
+        description: Tests and red-teams prompts, agents and RAG pipelines from the CLI or CI.
+  - title: Memory
+    tools:
+      - name: Mem0
+        dex: 104
+        url: https://mem0.ai
+        repo: mem0ai/mem0
+        description: Adds a persistent memory layer so agents recall past interactions.
+      - name: Letta
+        dex: 105
+        url: https://www.letta.com
+        repo: letta-ai/letta
+        description: Builds stateful agents with long-term memory, from the team behind MemGPT.

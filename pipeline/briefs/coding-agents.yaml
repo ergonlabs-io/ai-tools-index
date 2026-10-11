@@ -1,0 +1,15 @@
+section: coding-agents
+instructions: Coding agents not already listed. Group names "Terminal agents" and "Editor agents" already exist; "Code review" is new.
+candidates:
+  - {name: CodeRabbit, group: Code review, url: https://www.coderabbit.ai}
+  - {name: Greptile, group: Code review, url: https://www.greptile.com}
+  - {name: pr-agent, group: Code review}
+  - {name: copilot-cli, group: Terminal agents, url: https://github.com/github/copilot-cli}
+  - {name: kimi-cli, group: Terminal agents}
+  - {name: Factory, group: Terminal agents, url: https://factory.ai}
+  - {name: Warp, group: Terminal agents, url: https://www.warp.dev}
+  - {name: Junie, group: Editor agents, url: https://www.jetbrains.com/junie/}
+  - {name: Augment Code, group: Editor agents, url: https://www.augmentcode.com}
+  - {name: Trae, group: Editor agents, url: https://www.trae.ai}
+  - {name: Tabby, group: Editor agents, url: https://www.tabbyml.com}
+  - {name: Tabnine, group: Editor agents, url: https://www.tabnine.com}
