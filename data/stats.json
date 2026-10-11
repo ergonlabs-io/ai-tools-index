@@ -25,7 +25,7 @@
     "full_name": "ChromeDevTools/chrome-devtools-mcp",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-11T00:10:07Z",
-    "stars": 53280
+    "stars": 53281
   },
   "Helicone/helicone": {
     "archived": false,
@@ -53,7 +53,7 @@
     "full_name": "OpenHands/OpenHands",
     "license": "MIT",
     "pushed_at": "2026-10-11T05:42:02Z",
-    "stars": 90589
+    "stars": 90590
   },
   "Portkey-AI/gateway": {
     "archived": false,
@@ -73,7 +73,7 @@
     "archived": false,
     "full_name": "QwenLM/qwen-code",
     "license": "Apache-2.0",
-    "pushed_at": "2026-10-11T16:43:15Z",
+    "pushed_at": "2026-10-11T16:56:03Z",
     "stars": 28417
   },
   "RooCodeInc/Roo-Code": {
@@ -109,7 +109,7 @@
     "full_name": "anomalyco/opencode",
     "license": "MIT",
     "pushed_at": "2026-10-11T16:35:18Z",
-    "stars": 212690
+    "stars": 212689
   },
   "anthropics/claude-agent-sdk-python": {
     "archived": false,
@@ -123,7 +123,7 @@
     "full_name": "anthropics/claude-code",
     "license": null,
     "pushed_at": "2026-10-10T22:23:41Z",
-    "stars": 150181
+    "stars": 150183
   },
   "awslabs/mcp": {
     "archived": false,
@@ -144,7 +144,7 @@
     "full_name": "browserbase/stagehand",
     "license": "MIT",
     "pushed_at": "2026-10-10T17:38:53Z",
-    "stars": 25620
+    "stars": 25621
   },
   "charmbracelet/crush": {
     "archived": false,
@@ -193,7 +193,7 @@
     "full_name": "dyad-sh/dyad",
     "license": null,
     "pushed_at": "2026-10-09T17:08:57Z",
-    "stars": 21841
+    "stars": 21842
   },
   "e2b-dev/E2B": {
     "archived": false,
@@ -221,7 +221,7 @@
     "full_name": "firecrawl/firecrawl",
     "license": "AGPL-3.0",
     "pushed_at": "2026-10-10T23:09:56Z",
-    "stars": 190409
+    "stars": 190414
   },
   "firecrawl/firecrawl-mcp-server": {
     "archived": false,
@@ -241,7 +241,7 @@
     "archived": false,
     "full_name": "ggml-org/llama.cpp",
     "license": "MIT",
-    "pushed_at": "2026-10-11T16:41:29Z",
+    "pushed_at": "2026-10-11T16:53:06Z",
     "stars": 130829
   },
   "github/copilot-cli": {
@@ -298,7 +298,7 @@
     "full_name": "langchain-ai/langgraph",
     "license": "MIT",
     "pushed_at": "2026-10-11T12:51:11Z",
-    "stars": 43066
+    "stars": 43067
   },
   "langfuse/langfuse": {
     "archived": false,
@@ -389,7 +389,7 @@
     "full_name": "modelcontextprotocol/servers",
     "license": null,
     "pushed_at": "2026-10-11T05:42:28Z",
-    "stars": 91143
+    "stars": 91144
   },
   "modelcontextprotocol/typescript-sdk": {
     "archived": false,
@@ -417,7 +417,7 @@
     "full_name": "ollama/ollama",
     "license": "MIT",
     "pushed_at": "2026-10-11T06:52:52Z",
-    "stars": 182754
+    "stars": 182755
   },
   "onlook-dev/onlook": {
     "archived": false,
@@ -458,7 +458,7 @@
     "archived": false,
     "full_name": "promptfoo/promptfoo",
     "license": "MIT",
-    "pushed_at": "2026-10-11T16:42:50Z",
+    "pushed_at": "2026-10-11T16:54:03Z",
     "stars": 25897
   },
   "punkpeye/awesome-mcp-servers": {
@@ -466,7 +466,7 @@
     "full_name": "punkpeye/awesome-mcp-servers",
     "license": "MIT",
     "pushed_at": "2026-10-09T19:23:13Z",
-    "stars": 96117
+    "stars": 96118
   },
   "pydantic/pydantic-ai": {
     "archived": false,
@@ -487,13 +487,13 @@
     "full_name": "sgl-project/sglang",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-11T16:31:35Z",
-    "stars": 36989
+    "stars": 36990
   },
   "stackblitz-labs/bolt.diy": {
     "archived": false,
     "full_name": "stackblitz-labs/bolt.diy",
     "license": "MIT",
-    "pushed_at": "2026-10-11T14:48:31Z",
+    "pushed_at": "2026-10-11T16:52:08Z",
     "stars": 19943
   },
   "stanfordnlp/dspy": {
@@ -535,7 +535,7 @@
     "archived": false,
     "full_name": "vercel/ai",
     "license": null,
-    "pushed_at": "2026-10-11T16:45:37Z",
+    "pushed_at": "2026-10-11T16:51:51Z",
     "stars": 27244
   },
   "vllm-project/vllm": {
@@ -564,6 +564,6 @@
     "full_name": "zed-industries/zed",
     "license": null,
     "pushed_at": "2026-10-11T16:40:51Z",
-    "stars": 91580
+    "stars": 91581
   }
 }
