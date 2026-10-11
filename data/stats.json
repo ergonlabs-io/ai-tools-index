@@ -249,7 +249,7 @@
     "full_name": "ggml-org/llama.cpp",
     "license": "MIT",
     "pushed_at": "2026-10-11T16:57:15Z",
-    "stars": 130828
+    "stars": 130829
   },
   "github/copilot-cli": {
     "archived": false,
@@ -424,7 +424,7 @@
     "full_name": "ollama/ollama",
     "license": "MIT",
     "pushed_at": "2026-10-11T06:52:52Z",
-    "stars": 182755
+    "stars": 182756
   },
   "onlook-dev/onlook": {
     "archived": false,
@@ -529,7 +529,7 @@
     "full_name": "unclecode/crawl4ai",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-11T06:06:31Z",
-    "stars": 85222
+    "stars": 85224
   },
   "upstash/context7": {
     "archived": false,
