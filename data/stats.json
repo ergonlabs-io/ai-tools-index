@@ -17,7 +17,7 @@
     "archived": false,
     "full_name": "BerriAI/litellm",
     "license": null,
-    "pushed_at": "2026-10-11T16:34:59Z",
+    "pushed_at": "2026-10-11T16:44:37Z",
     "stars": 60964
   },
   "ChromeDevTools/chrome-devtools-mcp": {
@@ -53,7 +53,7 @@
     "full_name": "OpenHands/OpenHands",
     "license": "MIT",
     "pushed_at": "2026-10-11T05:42:02Z",
-    "stars": 90588
+    "stars": 90589
   },
   "Portkey-AI/gateway": {
     "archived": false,
@@ -73,7 +73,7 @@
     "archived": false,
     "full_name": "QwenLM/qwen-code",
     "license": "Apache-2.0",
-    "pushed_at": "2026-10-11T16:22:31Z",
+    "pushed_at": "2026-10-11T16:43:15Z",
     "stars": 28417
   },
   "RooCodeInc/Roo-Code": {
@@ -109,7 +109,7 @@
     "full_name": "anomalyco/opencode",
     "license": "MIT",
     "pushed_at": "2026-10-11T16:35:18Z",
-    "stars": 212689
+    "stars": 212690
   },
   "anthropics/claude-agent-sdk-python": {
     "archived": false,
@@ -179,7 +179,7 @@
     "full_name": "continuedev/continue",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-09T21:22:45Z",
-    "stars": 36183
+    "stars": 36184
   },
   "crewAIInc/crewAI": {
     "archived": false,
@@ -221,7 +221,7 @@
     "full_name": "firecrawl/firecrawl",
     "license": "AGPL-3.0",
     "pushed_at": "2026-10-10T23:09:56Z",
-    "stars": 190408
+    "stars": 190409
   },
   "firecrawl/firecrawl-mcp-server": {
     "archived": false,
@@ -241,8 +241,8 @@
     "archived": false,
     "full_name": "ggml-org/llama.cpp",
     "license": "MIT",
-    "pushed_at": "2026-10-11T14:46:19Z",
-    "stars": 130828
+    "pushed_at": "2026-10-11T16:41:29Z",
+    "stars": 130829
   },
   "github/copilot-cli": {
     "archived": false,
@@ -326,7 +326,7 @@
     "full_name": "mastra-ai/mastra",
     "license": null,
     "pushed_at": "2026-10-11T16:25:14Z",
-    "stars": 28707
+    "stars": 28708
   },
   "mem0ai/mem0": {
     "archived": false,
@@ -354,7 +354,7 @@
     "full_name": "microsoft/playwright-mcp",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-08T17:51:59Z",
-    "stars": 38021
+    "stars": 38022
   },
   "ml-explore/mlx-lm": {
     "archived": false,
@@ -438,7 +438,7 @@
     "full_name": "openai/codex",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-11T16:03:35Z",
-    "stars": 128653
+    "stars": 128654
   },
   "openai/openai-agents-python": {
     "archived": false,
@@ -458,7 +458,7 @@
     "archived": false,
     "full_name": "promptfoo/promptfoo",
     "license": "MIT",
-    "pushed_at": "2026-10-11T16:39:01Z",
+    "pushed_at": "2026-10-11T16:42:50Z",
     "stars": 25897
   },
   "punkpeye/awesome-mcp-servers": {
@@ -473,7 +473,7 @@
     "full_name": "pydantic/pydantic-ai",
     "license": "MIT",
     "pushed_at": "2026-10-11T05:08:41Z",
-    "stars": 20547
+    "stars": 20548
   },
   "run-llama/llama_index": {
     "archived": false,
@@ -535,7 +535,7 @@
     "archived": false,
     "full_name": "vercel/ai",
     "license": null,
-    "pushed_at": "2026-10-11T16:39:11Z",
+    "pushed_at": "2026-10-11T16:45:37Z",
     "stars": 27244
   },
   "vllm-project/vllm": {
@@ -563,7 +563,7 @@
     "archived": false,
     "full_name": "zed-industries/zed",
     "license": null,
-    "pushed_at": "2026-10-11T16:18:32Z",
+    "pushed_at": "2026-10-11T16:40:51Z",
     "stars": 91580
   }
 }
