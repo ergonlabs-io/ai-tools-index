@@ -30,7 +30,7 @@ BANNED = re.compile(
     re.I,
 )
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari/605.1.15"
-ALLOWED_FIELDS = {"section", "group", "name", "url", "repo", "description", "evidence"}
+ALLOWED_FIELDS = {"section", "group", "name", "url", "repo", "hosted", "description", "evidence"}
 
 
 def existing_index():

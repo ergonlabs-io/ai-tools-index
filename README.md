@@ -6,6 +6,8 @@ Unlike most lists, every entry is structured data. Stars, last activity and lice
 
 **107 tools** · updated 2026-10-11 · [contribute](CONTRIBUTING.md)
 
+☁️ hosted service (everything else installs and runs on your machine) · 🆕 added in the last 30 days · 💤 no commits in 180 days · 🗄️ archived on GitHub
+
 ## Contents
 
 - [Coding agents](#coding-agents)
@@ -79,15 +81,15 @@ Agents that read, write and run code in your repository.
 | --- | --- | --- | --- | --- | --- |
 | #018 | [OpenHands](https://github.com/OpenHands/OpenHands) | Open platform for autonomous software-engineering agents. | MIT | [★ 90.6k](https://github.com/OpenHands/OpenHands) | today |
 | #019 | [SWE-agent](https://swe-agent.com) | Princeton/Stanford research agent that resolves GitHub issues. | MIT | [★ 20.5k](https://github.com/SWE-agent/SWE-agent) | 5d ago |
-| #020 | [Devin](https://devin.ai) | Cognition's autonomous software engineer. | Closed source | — | — |
-| #021 | [Jules](https://jules.google) | Google's asynchronous coding agent that works on your GitHub repos. | Closed source | — | — |
-| #078 | [Tempo](https://www.tempo.new) | Turns customer feedback, issues and product requirements into reviewed pull requests. | Closed source | — | — |
+| #020 | [Devin](https://devin.ai) ☁️ | Cognition's autonomous software engineer. | Closed source | — | — |
+| #021 | [Jules](https://jules.google) ☁️ | Google's asynchronous coding agent that works on your GitHub repos. | Closed source | — | — |
+| #078 | [Tempo](https://www.tempo.new) ☁️ | Turns customer feedback, issues and product requirements into reviewed pull requests. | Closed source | — | — |
 
 ### Code review
 
 | # | Tool | What it does | License | Stars | Last commit |
 | --- | --- | --- | --- | --- | --- |
-| #077 | [CodeRabbit](https://www.coderabbit.ai) | Reviews pull requests with AI and leaves line-by-line comments. | Closed source | — | — |
+| #077 | [CodeRabbit](https://www.coderabbit.ai) ☁️ | Reviews pull requests with AI and leaves line-by-line comments. | Closed source | — | — |
 
 ## App builders
 
@@ -97,15 +99,15 @@ Describe an app in plain language and get a running one back.
 
 | # | Tool | What it does | License | Stars | Last commit |
 | --- | --- | --- | --- | --- | --- |
-| #022 | [Lovable](https://lovable.dev) | Builds full-stack web apps from chat, with Supabase and GitHub sync. | Closed source | — | — |
-| #023 | [Bolt.new](https://bolt.new) | StackBlitz's in-browser app builder running on WebContainers. | Closed source | — | — |
-| #024 | [v0](https://v0.app) | Vercel's generator for React and Next.js apps and UI. | Closed source | — | — |
-| #025 | [Replit Agent](https://replit.com) | Agent that builds and deploys apps inside Replit's cloud workspace. | Closed source | — | — |
-| #026 | [Base44](https://base44.com) | All-in-one builder with hosting, database and auth included. | Closed source | — | — |
-| #027 | [Firebase Studio](https://firebase.studio) | Google's cloud workspace for prototyping and shipping full-stack apps. | Closed source | — | — |
-| #079 | [Anything](https://www.anything.com) | Builds websites, apps and tools from a text description. | Closed source | — | — |
-| #080 | [Rork](https://rork.com) | Builds cross-platform mobile apps from a prompt. | Closed source | — | — |
-| #081 | [Leap](https://leap.new) | Generates apps and deploys them to AWS or GCP. | Closed source | — | — |
+| #022 | [Lovable](https://lovable.dev) ☁️ | Builds full-stack web apps from chat, with Supabase and GitHub sync. | Closed source | — | — |
+| #023 | [Bolt.new](https://bolt.new) ☁️ | StackBlitz's in-browser app builder running on WebContainers. | Closed source | — | — |
+| #024 | [v0](https://v0.app) ☁️ | Vercel's generator for React and Next.js apps and UI. | Closed source | — | — |
+| #025 | [Replit Agent](https://replit.com) ☁️ | Agent that builds and deploys apps inside Replit's cloud workspace. | Closed source | — | — |
+| #026 | [Base44](https://base44.com) ☁️ | All-in-one builder with hosting, database and auth included. | Closed source | — | — |
+| #027 | [Firebase Studio](https://firebase.studio) ☁️ | Google's cloud workspace for prototyping and shipping full-stack apps. | Closed source | — | — |
+| #079 | [Anything](https://www.anything.com) ☁️ | Builds websites, apps and tools from a text description. | Closed source | — | — |
+| #080 | [Rork](https://rork.com) ☁️ | Builds cross-platform mobile apps from a prompt. | Closed source | — | — |
+| #081 | [Leap](https://leap.new) ☁️ | Generates apps and deploys them to AWS or GCP. | Closed source | — | — |
 
 ### Open source and local
 
@@ -162,8 +164,8 @@ Model Context Protocol servers that give agents tools and data.
 | # | Tool | What it does | License | Stars | Last commit |
 | --- | --- | --- | --- | --- | --- |
 | #042 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | The largest community list of MCP servers. | MIT | [★ 96.1k](https://github.com/punkpeye/awesome-mcp-servers) | 2d ago |
-| #040 | [Smithery](https://smithery.ai) | Registry for discovering and hosting MCP servers. | Closed source | — | — |
-| #041 | [Glama](https://glama.ai/mcp/servers) | Searchable directory of MCP servers. | Closed source | — | — |
+| #040 | [Smithery](https://smithery.ai) ☁️ | Registry for discovering and hosting MCP servers. | Closed source | — | — |
+| #041 | [Glama](https://glama.ai/mcp/servers) ☁️ | Searchable directory of MCP servers. | Closed source | — | — |
 
 ## Agent frameworks
 
@@ -209,7 +211,7 @@ Gateways, observability and sandboxes for running agents in production.
 | #044 | [Portkey Gateway](https://github.com/Portkey-AI/gateway) | Fast AI gateway with routing, retries and guardrails. | MIT | [★ 13.2k](https://github.com/Portkey-AI/gateway) | 4mo ago |
 | #106 | [magpie](https://usemagpie.ai) | Local gateway that lets Claude Code, Codex and other agents use any model, from the menu bar. | MIT | [★ 9.1k](https://github.com/yetone/magpie) | today |
 | #045 | [omni](https://github.com/ergonlabs-io/omni) ¹ | One interception point for all coding agents. | MIT | [★ 0](https://github.com/ergonlabs-io/omni) | 1mo ago |
-| #096 | [OpenRouter](https://openrouter.ai) | Routes requests to hundreds of models from many providers through one OpenAI-compatible API. | Closed source | — | — |
+| #096 | [OpenRouter](https://openrouter.ai) ☁️ | Routes requests to hundreds of models from many providers through one OpenAI-compatible API. | Closed source | — | — |
 
 ### Observability
 
@@ -227,7 +229,7 @@ Gateways, observability and sandboxes for running agents in production.
 | #049 | [Browser Use](https://browser-use.com) | Makes websites accessible to AI agents. | MIT | [★ 117.6k](https://github.com/browser-use/browser-use) | 2d ago |
 | #099 | [Stagehand](https://www.stagehand.dev/) | Browser automation SDK that mixes code with natural-language actions. | MIT | [★ 25.6k](https://github.com/browserbase/stagehand) | today |
 | #048 | [E2B](https://e2b.dev) | Secure cloud sandboxes for running agent-generated code. | Apache-2.0 | [★ 14.3k](https://github.com/e2b-dev/E2B) | 2d ago |
-| #100 | [Browserbase](https://www.browserbase.com) | Runs headless browsers in the cloud for agents and automation. | Closed source | — | — |
+| #100 | [Browserbase](https://www.browserbase.com) ☁️ | Runs headless browsers in the cloud for agents and automation. | Closed source | — | — |
 
 ### Web data
 
@@ -274,7 +276,7 @@ Run open-weight models on your own hardware.
 
 ---
 
-💤 stale: no commits in 180 days. 🗄️ archived: read-only on GitHub. "+ enterprise" / "+ pro": open core, with some directories under a commercial license.
+"+ enterprise" / "+ pro" in the License column: open core, with some directories under a commercial license.
 
 ¹ Built by [Ergonlabs](https://ergonlabs.io), which maintains this list. It is held to the same inclusion rules as every other entry.
 

@@ -13,6 +13,7 @@ Add an entry to the right group in the right file:
   url: https://example.com
   repo: example-org/example   # optional; only for public GitHub repos
   description: One plain sentence on what it does, under 100 characters.
+  added: 2026-10-20           # today's date; shows 🆕 for 30 days
 ```
 
 Then check your entry locally:
@@ -48,3 +49,16 @@ removed, its number goes into `data/retired.json`, and CI rejects any entry that
 
 If the README shows the wrong license (GitHub reports custom or dual licenses as unknown), add
 `license:` to the entry with the real one, e.g. `license: MIT + enterprise`.
+
+## Markers
+
+Add `hosted: true` to a tool that only runs as a hosted service (a website or cloud product you
+can't install). New entries also get `added:` with today's date, which shows 🆕 for 30 days.
+
+## Badge
+
+If your tool is listed, you can add this to its README:
+
+```markdown
+[![Listed in AI Tools Index](https://img.shields.io/badge/Listed_in-AI_Tools_Index-0b7285)](https://github.com/ergonlabs-io/ai-tools-index)
+```

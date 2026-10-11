@@ -127,10 +127,12 @@ groups:
       - name: Smithery
         dex: 40
         url: https://smithery.ai
+        hosted: true
         description: Registry for discovering and hosting MCP servers.
       - name: Glama
         dex: 41
         url: https://glama.ai/mcp/servers
+        hosted: true
         description: Searchable directory of MCP servers.
       - name: awesome-mcp-servers
         dex: 42

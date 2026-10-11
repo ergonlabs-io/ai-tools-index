@@ -1,0 +1,40 @@
+name: welcome
+
+# Thanks the author when a PR that adds or edits a tool is merged, and offers the
+# "Listed in" badge. pull_request_target never checks out PR code here, so it is safe.
+on:
+  pull_request_target:
+    types: [closed]
+    paths: ["data/*.yaml"]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  welcome:
+    if: >-
+      github.event.pull_request.merged == true &&
+      !contains(fromJSON('["OWNER","MEMBER"]'), github.event.pull_request.author_association) &&
+      github.event.pull_request.user.type != 'Bot'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = '<!-- welcome-comment -->';
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const { data: comments } = await github.rest.issues.listComments({ owner, repo, issue_number, per_page: 100 });
+            if (comments.some(c => c.body.includes(marker))) return;
+            const badge = '[![Listed in AI Tools Index](https://img.shields.io/badge/Listed_in-AI_Tools_Index-0b7285)](https://github.com/ergonlabs-io/ai-tools-index)';
+            await github.rest.issues.createComment({ owner, repo, issue_number, body:
+            `${marker}
+            Thanks, it's merged. The README updates within a few minutes, and stars and last-commit date refresh nightly.
+
+            If you maintain the tool, you're welcome to add this badge to its README:
+
+            ${badge}
+
+            \`\`\`markdown
+            ${badge}
+            \`\`\``.replace(/^ {12}/gm, '') });

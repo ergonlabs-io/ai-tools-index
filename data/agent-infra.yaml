@@ -23,6 +23,7 @@ groups:
       - name: OpenRouter
         dex: 96
         url: https://openrouter.ai
+        hosted: true
         description: Routes requests to hundreds of models from many providers through one OpenAI-compatible API.
       - name: magpie
         dex: 106
@@ -73,6 +74,7 @@ groups:
       - name: Browserbase
         dex: 100
         url: https://www.browserbase.com
+        hosted: true
         description: Runs headless browsers in the cloud for agents and automation.
   - title: Web data
     tools:

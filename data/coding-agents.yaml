@@ -135,18 +135,22 @@ groups:
       - name: Devin
         dex: 20
         url: https://devin.ai
+        hosted: true
         description: Cognition's autonomous software engineer.
       - name: Jules
         dex: 21
         url: https://jules.google
+        hosted: true
         description: Google's asynchronous coding agent that works on your GitHub repos.
       - name: Tempo
         dex: 78
         url: https://www.tempo.new
+        hosted: true
         description: Turns customer feedback, issues and product requirements into reviewed pull requests.
   - title: Code review
     tools:
       - name: CodeRabbit
         dex: 77
         url: https://www.coderabbit.ai
+        hosted: true
         description: Reviews pull requests with AI and leaves line-by-line comments.

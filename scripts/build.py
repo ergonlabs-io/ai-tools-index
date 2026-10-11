@@ -33,6 +33,7 @@ SECTIONS = ["coding-agents", "app-builders", "mcp", "agent-frameworks", "agent-i
 
 RETIRED = json.loads((DATA / "retired.json").read_text())  # dex numbers of removed tools
 STALE_DAYS = 180
+NEW_DAYS = 30
 MAX_DESC = 100
 # Dex numbers are permanent IDs, like a Pokedex. They are never reused or
 # renumbered, so a removed tool leaves a gap rather than shifting the rest.
@@ -66,6 +67,10 @@ def validate(sections):
                     errors.append(f"{where}: description is {len(desc)} chars (max {MAX_DESC})")
                 if desc and not desc.endswith("."):
                     errors.append(f"{where}: description must end with a period")
+                if "hosted" in t and not isinstance(t["hosted"], bool):
+                    errors.append(f"{where}: hosted must be true or false")
+                if "added" in t and not isinstance(t["added"], dt.date):
+                    errors.append(f"{where}: added must be a date like 2026-10-20")
                 if t.get("repo") and not REPO_RE.match(t["repo"]):
                     errors.append(f"{where}: repo must be 'owner/name'")
                 dex = t.get("dex")
@@ -175,6 +180,10 @@ def row(t, stats, today):
     s = stats.get(t.get("repo"))
     num = f"#{t['dex']:03d}"
     name = f"[{t['name']}]({t['url']})"
+    if t.get("hosted"):
+        name += " ☁️"
+    if t.get("added") and (today - t["added"]).days <= NEW_DAYS:
+        name += " 🆕"
     if t.get("maintainer_note"):
         name += " ¹"
     if not s and t.get("repo"):  # open source, but stats not fetched yet (--offline)
@@ -209,6 +218,10 @@ def render(sections, stats, today):
         f"**{total} tools** · updated {today.isoformat()} · "
         "[contribute](CONTRIBUTING.md)",
         "",
+        "☁️ hosted service (everything else installs and runs on your machine) · "
+        f"🆕 added in the last {NEW_DAYS} days · "
+        f"💤 no commits in {STALE_DAYS} days · 🗄️ archived on GitHub",
+        "",
         "## Contents",
         "",
     ]
@@ -234,8 +247,7 @@ def render(sections, stats, today):
         "",
         "---",
         "",
-        f"💤 stale: no commits in {STALE_DAYS} days. 🗄️ archived: read-only on GitHub. "
-        "\"+ enterprise\" / \"+ pro\": open core, with some directories under a commercial license.",
+        "\"+ enterprise\" / \"+ pro\" in the License column: open core, with some directories under a commercial license.",
         "",
         "¹ Built by [Ergonlabs](https://ergonlabs.io), which maintains this list. "
         "It is held to the same inclusion rules as every other entry.",
