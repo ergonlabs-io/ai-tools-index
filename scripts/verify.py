@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Check a staging batch written by a research model, entry by entry.
+"""Check a batch of proposed entries, one by one.
 
-Every claim a model makes is checked against GitHub and the live web, because
-cheap models invent repos, keep old names after a rename, and describe tools
-with marketing copy. Passing entries are written to <batch>.verified.yaml for
-merge.py; the rest are explained in <batch>.report.md, which run.sh feeds back
-to the model for one retry.
+Every claim in a batch is checked against GitHub and the live web: repos that
+don't exist or were renamed, dead or redirected sites, stale projects, marketing
+copy, duplicates. Passing entries go to <batch>.verified.yaml; the reasons for
+every rejection go to <batch>.report.md.
 
 Usage: python3 scripts/verify.py staging/<batch>.yaml
 """
