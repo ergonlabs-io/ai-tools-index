@@ -4,7 +4,7 @@ A maintained index of the AI tools developers actually use: coding agents, app b
 
 Unlike most lists, every entry is structured data. Stars, last activity and license are refreshed from GitHub nightly, and archived or inactive projects are flagged automatically instead of rotting in place. Each tool gets a permanent dex number, Pokédex-style, that never changes or gets reused.
 
-**105 tools** · updated 2026-10-11 · [contribute](CONTRIBUTING.md)
+**107 tools** · updated 2026-10-11 · [contribute](CONTRIBUTING.md)
 
 ## Contents
 
@@ -24,6 +24,7 @@ Unlike most lists, every entry is structured data. Stars, last activity and lice
 - [Agent frameworks](#agent-frameworks)
   - [Python](#python)
   - [TypeScript](#typescript)
+  - [Declarative](#declarative)
 - [Agent infrastructure](#agent-infrastructure)
   - [Gateways and proxies](#gateways-and-proxies)
   - [Observability](#observability)
@@ -190,6 +191,12 @@ Libraries and SDKs for building your own agents.
 | #070 | [Mastra](https://mastra.ai) | TypeScript framework for agents, workflows, RAG and evals. | Apache-2.0 + enterprise | [★ 28.7k](https://github.com/mastra-ai/mastra) | today |
 | #069 | [Vercel AI SDK](https://github.com/vercel/ai) | TypeScript toolkit for building AI apps and agents across model providers. | Apache-2.0 | [★ 27.2k](https://github.com/vercel/ai) | today |
 
+### Declarative
+
+| # | Tool | What it does | License | Stars | Last commit |
+| --- | --- | --- | --- | --- | --- |
+| #107 | [Docker Agent](https://github.com/docker/docker-agent) | Docker's CLI plugin for building and running multi-agent teams defined in YAML. | Apache-2.0 | [★ 4.4k](https://github.com/docker/docker-agent) | today |
+
 ## Agent infrastructure
 
 Gateways, observability and sandboxes for running agents in production.
@@ -200,6 +207,7 @@ Gateways, observability and sandboxes for running agents in production.
 | --- | --- | --- | --- | --- | --- |
 | #043 | [LiteLLM](https://github.com/BerriAI/litellm) | Python SDK and proxy that calls 100+ LLM APIs in OpenAI format. | MIT + enterprise | [★ 61k](https://github.com/BerriAI/litellm) | today |
 | #044 | [Portkey Gateway](https://github.com/Portkey-AI/gateway) | Fast AI gateway with routing, retries and guardrails. | MIT | [★ 13.2k](https://github.com/Portkey-AI/gateway) | 4mo ago |
+| #106 | [magpie](https://usemagpie.ai) | Local gateway that lets Claude Code, Codex and other agents use any model, from the menu bar. | MIT | [★ 9.1k](https://github.com/yetone/magpie) | today |
 | #045 | [omni](https://github.com/ergonlabs-io/omni) ¹ | One interception point for all coding agents. | MIT | [★ 0](https://github.com/ergonlabs-io/omni) | 1mo ago |
 | #096 | [OpenRouter](https://openrouter.ai) | Routes requests to hundreds of models from many providers through one OpenAI-compatible API. | Closed source | — | — |
 

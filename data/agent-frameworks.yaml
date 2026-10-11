@@ -67,3 +67,10 @@ groups:
         repo: mastra-ai/mastra
         license: Apache-2.0 + enterprise
         description: TypeScript framework for agents, workflows, RAG and evals.
+  - title: Declarative
+    tools:
+      - name: Docker Agent
+        dex: 107
+        url: https://github.com/docker/docker-agent
+        repo: docker/docker-agent
+        description: Docker's CLI plugin for building and running multi-agent teams defined in YAML.

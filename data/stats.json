@@ -123,7 +123,7 @@
     "full_name": "anthropics/claude-code",
     "license": null,
     "pushed_at": "2026-10-10T22:23:41Z",
-    "stars": 150183
+    "stars": 150184
   },
   "awslabs/mcp": {
     "archived": false,
@@ -150,7 +150,7 @@
     "archived": false,
     "full_name": "charmbracelet/crush",
     "license": null,
-    "pushed_at": "2026-10-11T01:05:13Z",
+    "pushed_at": "2026-10-11T16:58:43Z",
     "stars": 28594
   },
   "cline/cline": {
@@ -187,6 +187,13 @@
     "license": "MIT",
     "pushed_at": "2026-10-10T23:37:22Z",
     "stars": 59567
+  },
+  "docker/docker-agent": {
+    "archived": false,
+    "full_name": "docker/docker-agent",
+    "license": "Apache-2.0",
+    "pushed_at": "2026-10-10T04:00:31Z",
+    "stars": 4423
   },
   "dyad-sh/dyad": {
     "archived": false,
@@ -241,8 +248,8 @@
     "archived": false,
     "full_name": "ggml-org/llama.cpp",
     "license": "MIT",
-    "pushed_at": "2026-10-11T16:53:06Z",
-    "stars": 130829
+    "pushed_at": "2026-10-11T16:57:15Z",
+    "stars": 130828
   },
   "github/copilot-cli": {
     "archived": false,
@@ -305,7 +312,7 @@
     "full_name": "langfuse/langfuse",
     "license": null,
     "pushed_at": "2026-10-11T02:54:34Z",
-    "stars": 35648
+    "stars": 35649
   },
   "letta-ai/letta": {
     "archived": false,
@@ -326,7 +333,7 @@
     "full_name": "mastra-ai/mastra",
     "license": null,
     "pushed_at": "2026-10-11T16:25:14Z",
-    "stars": 28708
+    "stars": 28709
   },
   "mem0ai/mem0": {
     "archived": false,
@@ -438,7 +445,7 @@
     "full_name": "openai/codex",
     "license": "Apache-2.0",
     "pushed_at": "2026-10-11T16:03:35Z",
-    "stars": 128654
+    "stars": 128655
   },
   "openai/openai-agents-python": {
     "archived": false,
@@ -466,7 +473,7 @@
     "full_name": "punkpeye/awesome-mcp-servers",
     "license": "MIT",
     "pushed_at": "2026-10-09T19:23:13Z",
-    "stars": 96118
+    "stars": 96119
   },
   "pydantic/pydantic-ai": {
     "archived": false,
@@ -542,7 +549,7 @@
     "archived": false,
     "full_name": "vllm-project/vllm",
     "license": "Apache-2.0",
-    "pushed_at": "2026-10-11T16:27:22Z",
+    "pushed_at": "2026-10-11T16:57:08Z",
     "stars": 93564
   },
   "warpdotdev/warp": {
@@ -558,6 +565,13 @@
     "license": "MIT",
     "pushed_at": "2026-10-08T13:18:17Z",
     "stars": 9999
+  },
+  "yetone/magpie": {
+    "archived": false,
+    "full_name": "yetone/magpie",
+    "license": "MIT",
+    "pushed_at": "2026-10-11T16:57:32Z",
+    "stars": 9085
   },
   "zed-industries/zed": {
     "archived": false,
