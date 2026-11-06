@@ -44,6 +44,13 @@ groups:
         url: https://desktopcommander.app/
         repo: wonderwhy-er/DesktopCommanderMCP
         description: Gives MCP clients terminal control, file search and diff-based file editing.
+      - name: agent-qa
+        dex: 108
+        url: https://vostride.com
+        repo: vostride/agent-qa
+        license: FSL-1.1-ALv2
+        description: Tests web and mobile apps via MCP with memidex memory and validated self-improvement.
+        added: 2026-10-31
   - title: Platforms and services
     tools:
       - name: Supabase MCP
