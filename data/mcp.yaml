@@ -86,6 +86,13 @@ groups:
         url: https://github.com/microsoft/mcp
         repo: microsoft/mcp
         description: Catalog of Microsoft's official MCP servers, including Azure.
+      - name: NeverApply
+        dex: 108
+        url: https://neverapply.co/features/mcp
+        repo: kasovy/neverapply-mcp
+        hosted: true
+        description: Hosted MCP for job search, resume tailoring, screening answers and applications.
+        added: 2026-11-08
   - title: Reference and tooling
     tools:
       - name: Reference servers
