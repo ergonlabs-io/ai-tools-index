@@ -86,6 +86,11 @@ groups:
         url: https://github.com/microsoft/mcp
         repo: microsoft/mcp
         description: Catalog of Microsoft's official MCP servers, including Azure.
+      - name: Datacircle
+        dex: 108
+        url: https://datacircle.dev
+        description: Open MCP server that lists and scores GTM data APIs and their plans, no key.
+        added: 2026-11-11
   - title: Reference and tooling
     tools:
       - name: Reference servers
