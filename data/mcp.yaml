@@ -3,6 +3,12 @@ blurb: Model Context Protocol servers that give agents tools and data.
 groups:
   - title: Developer tools
     tools:
+      - name: QuelLLM MCP
+        dex: 109
+        url: https://quelllm.fr/
+        repo: MGM-FALCON/quelllm-mcp
+        description: Query LLM metadata and estimate local memory and API costs.
+        added: 2026-11-18
       - name: GitHub MCP Server
         dex: 30
         url: https://github.com/github/github-mcp-server
