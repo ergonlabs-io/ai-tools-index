@@ -86,6 +86,13 @@ groups:
         url: https://github.com/microsoft/mcp
         repo: microsoft/mcp
         description: Catalog of Microsoft's official MCP servers, including Azure.
+      - name: DC Hub
+        dex: 108
+        url: https://dchub.cloud/connect?utm_source=ergonlabs-ai-tools-index&utm_medium=listing&utm_campaign=directories
+        repo: azmartone67/dchub-mcp-server
+        hosted: true
+        added: 2026-11-05
+        description: Live data-center site selection with DCPI grid-power scores in 300+ markets.
   - title: Reference and tooling
     tools:
       - name: Reference servers
